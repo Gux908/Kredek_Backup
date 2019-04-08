@@ -39,7 +39,7 @@ namespace KacperStudennyZadanieDomoweLab1
             timerFPS.Start();
 
             //Włącza muzykę
-            player = new SoundPlayer("Village.wav");
+            player = new SoundPlayer(Properties.Resources.VillageMusic);
             player.PlayLooping();
         }
 

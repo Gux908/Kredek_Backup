@@ -119,5 +119,14 @@ namespace KacperStudennyZadanieDomoweLab1.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.IO.UnmanagedMemoryStream podobny do zasobu System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream VillageMusic {
+            get {
+                return ResourceManager.GetStream("VillageMusic", resourceCulture);
+            }
+        }
     }
 }
